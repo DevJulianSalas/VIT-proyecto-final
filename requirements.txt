@@ -1,8 +1,7 @@
-black
-flake8
-isort
-mkdocs
-pip
-pytest
-python-dotenv
--e .
+jupyterlab==4.3.6
+ipywidgets==8.1.5
+torch==2.6.0
+torchvision==0.21.0
+torchsummary==1.5.1
+torchmetrics==1.7.1
+datasets==3.6.0

@@ -1,0 +1,14 @@
+services:
+  jupyter:
+      build: .
+      container_name: vit_project
+      volumes:
+        - ./src:/home/src
+      ports:
+        - "9999:9999"
+      environment:
+        - JUPYTER_TOKEN=vision123
+        - PYTHONUNBUFFERED=1
+        - PYTHONIOENCODING=UTF-8
+      stdin_open: true
+      tty: true
